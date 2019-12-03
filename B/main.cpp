@@ -1,12 +1,13 @@
 #include "main.h"
 
 /*!
- * \brief Выполнить функцию из библиотеки A
+ * \brief Выполнить функцию из библиотек A и C
  *
- * Просто вывызает функцию из A
+ * Просто вывызает функцию из A и C
  */
 void do_lib_A_stuff() {
 	do_almost_nothing();
+	do_absolutely_nothing();
 }
 
 /*!
